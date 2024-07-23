@@ -20,7 +20,15 @@
         </div>
     </div>
 
-    
+    <div>
+        <ol>
+            {% for item in items %}
+                <div>
+                    <li>{{item["Item_Name"]}}</li>
+                </div>
+            {% endfor %}
+        </ol>
+    </div>
 
 </body>
 </html>
